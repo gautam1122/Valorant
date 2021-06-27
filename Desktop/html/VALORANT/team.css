@@ -1,0 +1,179 @@
+body{
+    
+    background-image: url(wp6012329-valorant-wallpapers.png);
+    margin: 0%;
+    padding: 0%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+}
+
+ 
+
+.valo h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'VALORANT', sans-serif;
+    background-color: rgba(0, 0, 0, 0.336);                       
+    color: rgb(224, 61, 61);
+    width: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-sizing: border-box;
+    padding: 30px;
+    justify-content: center;
+}
+    
+    
+                                                
+
+hr{
+    border-top: 6px solid rgb(209, 39, 39);
+    margin-left: 25em;
+    margin-right: 25em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+
+.list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:9rem ;
+   
+    width: fit-content;
+    box-sizing: border-box;
+    margin: 0% auto 0% auto;
+    
+    padding-top: 40px;
+    /* align-items: center; */
+}
+
+
+.playerslist{
+   height: 390px;
+   width: 300px;
+    background-color: rgba(121, 121, 121, 0.356);
+    text-align: center;
+    border-radius: 20px;
+    transition: 1s;}
+
+
+.Members img{
+   height: 240px;
+   width: 240px;
+   position: relative;
+   top: 27px;
+   border-radius: 160px;} 
+.playerslist h1{
+    padding-top: 33px;
+    font-family: 'VALORANT', sans-serif;
+    
+                                                
+}
+a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: -20px;
+}
+.playerslist:hover {
+    transform: scale(1.1);
+    background: rgba(121, 121, 121, 0.356);
+    box-shadow: 2px 2px 2px 2px;
+   
+
+}
+.playerslist:hover .icons{
+    transform: scale(1.1);
+    opacity: 1;
+    
+   
+
+}
+.icons{
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    position: relative;
+    left: 12px;
+    align-items: center;
+    transition: 0.5s;
+    opacity: 0;
+    
+}
+   .icons:hover{
+       transform: translateY(15px);
+       opacity: 1;
+       
+
+   }
+   .container
+   {
+      margin: 0%;
+      padding: 0%;
+   }
+   @media (max-width:1150px) {
+       .list{
+           display: grid;
+           grid-template-columns: auto auto;
+       }
+       
+   }
+   @media (max-width:746px) {
+    .list{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+}
+.dropbtn {
+    position: absolute;
+    margin-top: 4EM;
+    margin-left: 1EM;
+    background: url(https://i.ibb.co/HrfVRcx/menu.png);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /* top:10%; */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* top: 10%; */
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 20px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'VALORANT', sans-serif;
+    display: block;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.dropdown-content a:hover {
+    background-color: red;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: red;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
